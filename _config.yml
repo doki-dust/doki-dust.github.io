@@ -3,13 +3,13 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Hexo
-subtitle: ''
-description: ''
+title: 挪森岛
+subtitle: 你终于闪耀着了吗？我旅途的终点。
+description: 一些碎碎念。
 keywords:
-author: John Doe
-language: en
-timezone: ''
+author: 多绮山
+language: zh-CN
+timezone: Asia/shanghai
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
@@ -40,7 +40,7 @@ external_link:
   exclude: ''
 filename_case: 0
 render_drafts: false
-post_asset_folder: false
+post_asset_folder: true
 relative_link: false
 future: true
 highlight:
@@ -97,11 +97,18 @@ ignore:
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: landscape
+theme: next
 
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
   type: git
-  repository: git@github.com:2816381741/Blog.git
+  repository: git@github.com:doki-dust/doki-dust.github.io.git
   branch: main
+
+#搜索
+search:
+  path: search.xml
+  field: post
+  ormat: html
+  limit: 10000
