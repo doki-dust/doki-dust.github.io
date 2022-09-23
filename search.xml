@@ -6,28 +6,30 @@
     <content><![CDATA[<ul>
 <li><input type="checkbox" id="checkbox0"><label for="checkbox0"></label><strong>学习关于服务器的搭建维护相关前置知识，例如：linux系统、计算机通信和网络、数据库原理、容器和虚拟化技术、现代web技术（感谢友人的总结，总有一天会把友链给配置上的）；</strong><sup class="footnote-ref"><a href="#fn1" id="fnref1">[1]</a></sup></li>
 <li><input type="checkbox" id="checkbox1"><label for="checkbox1">配置友链；</label></li>
-<li><input type="checkbox" id="checkbox2" checked="true"><label for="checkbox2">测试的时候发现待办事项似乎谁都可以勾选；</label><sup class="footnote-ref"><a href="#fn2" id="fnref2">[2]</a></sup><span id="more"></span></li>
-<li><input type="checkbox" id="checkbox3" checked="true"><label for="checkbox3">换用更好用的评论系统；</label></li>
-<li><input type="checkbox" id="checkbox4"><label for="checkbox4">nexT主题更新了新的配置自定义方式，不再推荐使用直接更改_config文件，但是提供的文档是全英文的，找时间仔细阅读；</label></li>
-<li><input type="checkbox" id="checkbox5"><label for="checkbox5">关于github的hexo分支备份问题；</label></li>
-<li><input type="checkbox" id="checkbox6" checked="true"><label for="checkbox6">nexT主题最新版本仓库更换了，需要升级；</label></li>
-<li><input type="checkbox" id="checkbox7"><label for="checkbox7">细节性的用户体验优化，例如加入好用的开关灯系统；</label></li>
-<li><input type="checkbox" id="checkbox8"><label for="checkbox8">优化在国内无代理情况下的博客内容加载速度；</label></li>
-<li><input type="checkbox" id="checkbox9" checked="true"><label for="checkbox9">根据现状对about界面进行更新完善；</label></li>
-<li><input type="checkbox" id="checkbox10" checked="true"><label for="checkbox10">博客页面的更多美观相关的个性化配置；</label></li>
-<li><input type="checkbox" id="checkbox11"><label for="checkbox11">hexo的数学公式与emoji显示配置（我参照</label><a href="https://www.wangdanpeng.com/2022/02/09/20220209185324/">Mr.Wang_Blog</a>做的，并未验证是否成功）；</li>
-<li><input type="checkbox" id="checkbox12" checked="true"><label for="checkbox12">增加一些个人账户的展示，例如github、邮箱等；</label></li>
-<li><input type="checkbox" id="checkbox13"><label for="checkbox13">解决“waline未登录用户的头像在管理站可显示，但博客内只能显示默认头像”的问题；</label></li>
-<li><input type="checkbox" id="checkbox14"><label for="checkbox14">在完善目前博客后考虑开放搜索引擎对博客的搜索之类的；</label></li>
-<li><input type="checkbox" id="checkbox15"><label for="checkbox15">保持长续化博客内容更新；</label></li>
-<li><input type="checkbox" id="checkbox16"><label for="checkbox16"> …；</label></li>
+<li><input type="checkbox" id="checkbox2" checked="true"><label for="checkbox2">换用更好用的评论系统；</label><span id="more"></span></li>
+<li><input type="checkbox" id="checkbox3" checked="true"><label for="checkbox3">nexT主题更新了新的配置自定义方式，不再推荐使用直接更改_config文件，但是提供的文档是全英文的，找时间仔细阅读；</label><sup class="footnote-ref"><a href="#fn2" id="fnref2">[2]</a></sup></li>
+<li><input type="checkbox" id="checkbox4"><label for="checkbox4"></label><a href="https://blog.skk.moe/post/use-nextjs-and-hexo-to-rebuild-my-blog/">使用 Next.js + Hexo 重构我的博客</a></li>
+<li><input type="checkbox" id="checkbox5"><label for="checkbox5">一些关于网页搭建或者说是前端的基础常识的学习；</label></li>
+<li><input type="checkbox" id="checkbox6"><label for="checkbox6">关于github的hexo分支备份问题；</label></li>
+<li><input type="checkbox" id="checkbox7" checked="true"><label for="checkbox7">nexT主题最新版本仓库更换了，需要升级；</label></li>
+<li><input type="checkbox" id="checkbox8"><label for="checkbox8">nexT的文档还剩下高级选项没有阅读；</label></li>
+<li><input type="checkbox" id="checkbox9"><label for="checkbox9">细节性的用户体验优化，例如加入好用的开关灯系统；</label></li>
+<li><input type="checkbox" id="checkbox10"><label for="checkbox10">优化在国内无代理情况下的博客内容加载速度；</label></li>
+<li><input type="checkbox" id="checkbox11" checked="true"><label for="checkbox11">根据现状对about界面进行更新完善；</label></li>
+<li><input type="checkbox" id="checkbox12" checked="true"><label for="checkbox12">博客页面的更多美观相关的个性化配置；</label></li>
+<li><input type="checkbox" id="checkbox13"><label for="checkbox13">hexo的数学公式与emoji显示配置（我参照</label><a href="https://www.wangdanpeng.com/2022/02/09/20220209185324/">Mr.Wang_Blog</a>做的，并未验证是否成功）；</li>
+<li><input type="checkbox" id="checkbox14" checked="true"><label for="checkbox14">增加一些个人账户的展示，例如github、邮箱等；</label></li>
+<li><input type="checkbox" id="checkbox15"><label for="checkbox15">解决“waline未登录用户的头像在管理站可显示，但博客内只能显示默认头像”的问题；</label></li>
+<li><input type="checkbox" id="checkbox16"><label for="checkbox16">在完善目前博客后考虑开放搜索引擎对博客的搜索之类的；</label></li>
+<li><input type="checkbox" id="checkbox17"><label for="checkbox17">保持长续化博客内容更新；</label></li>
+<li><input type="checkbox" id="checkbox18"><label for="checkbox18">……；</label></li>
 </ul>
 <hr class="footnotes-sep">
 <section class="footnotes">
 <ol class="footnotes-list">
 <li id="fn1" class="footnote-item"><p>这部分是非常重要的长期待办事项，为防止忘记或者故意摆烂，我放在了待办事项最顶层。 <a href="#fnref1" class="footnote-backref">↩︎</a></p>
 </li>
-<li id="fn2" class="footnote-item"><p>但不会保存，所以暂时默认无所谓。 <a href="#fnref2" class="footnote-backref">↩︎</a></p>
+<li id="fn2" class="footnote-item"><p>目前暂时学会了新的主题配置方式，并将默认的主题配置文件更改为未改动的默认版本。 <a href="#fnref2" class="footnote-backref">↩︎</a></p>
 </li>
 </ol>
 </section>
