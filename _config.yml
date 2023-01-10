@@ -138,3 +138,8 @@ search:
   field: post
   ormat: html
   limit: 10000
+
+lazyload:
+  enable: true
+  onlypost: false
+  #loadingImg: /images/loading.png 
