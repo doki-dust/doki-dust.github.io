@@ -645,7 +645,7 @@
     enable: true #是否开启
     serverURL: waline-ptum5hc6w-doki-dust.vercel.app # Waline #服务端地址，部署的 Vercel 地址
     locale:
-      placeholder: 感谢您的发言。 # Comment box placeholder
+      placeholder: 感谢所有的你。 # Comment box placeholder
     avatar: retro # 头像风格
     meta: [nick, mail, link] # 自定义评论框上面的三个输入框的内容
     pageSize: 10 # 评论数量多少时显示分页
