@@ -53,7 +53,7 @@
 
 
 
-
+<link rel="dns-prefetch" href="waline-ptum5hc6w-doki-dust.vercel.app">
   <noscript>
     <link rel="stylesheet" href="/css/noscript.css">
   </noscript>
@@ -246,6 +246,20 @@
     </span>
 
   
+  
+  <span class="post-meta-item">
+    
+    <span class="post-meta-item-icon">
+      <i class="far fa-comment"></i>
+    </span>
+    <span class="post-meta-item-text">Waline：</span>
+  
+    <a title="waline" href="/2023/01/10/2022%20%E7%9A%84%E6%88%91%E7%A9%B6%E7%AB%9F%E5%9C%A8%E7%9C%8B%E4%BA%9B%E4%BB%80%E4%B9%88/#waline" itemprop="discussionUrl">
+      <span class="post-comments-count waline-comment-count" data-path="/2023/01/10/2022%20%E7%9A%84%E6%88%91%E7%A9%B6%E7%AB%9F%E5%9C%A8%E7%9C%8B%E4%BA%9B%E4%BB%80%E4%B9%88/" itemprop="commentCount"></span>
+    </a>
+  </span>
+  
+  
 </div>
 
         </div>
@@ -327,6 +341,7 @@
 
 
 
+    <div class="comments" id="waline"></div>
 </div>
   </main>
 
@@ -378,6 +393,17 @@
 
 
 
+<script class="next-config" data-name="waline" type="application/json">{"lang":"zh-CN","enable":true,"serverURL":"waline-ptum5hc6w-doki-dust.vercel.app","cssUrl":"https://unpkg.com/@waline/client@v2/dist/waline.css","commentCount":false,"pageview":false,"locale":{"placeholder":"感谢所有的你。"},"avatar":"retro","meta":["nick","mail","link"],"pageSize":10,"visitor":false,"requiredMeta":["nick","mail"],"libUrl":"//unpkg.com/@waline/client@v2/dist/waline.js","el":"#waline","comment":true,"path":"/2023/01/10/2022%20%E7%9A%84%E6%88%91%E7%A9%B6%E7%AB%9F%E5%9C%A8%E7%9C%8B%E4%BA%9B%E4%BB%80%E4%B9%88/"}</script>
+<link rel="stylesheet" href="https://unpkg.com/@waline/client@v2/dist/waline.css">
+<script>
+document.addEventListener('page:loaded', () => {
+  NexT.utils.loadComments(CONFIG.waline.el).then(() =>
+    NexT.utils.getScript(CONFIG.waline.libUrl, { condition: window.Waline })
+  ).then(() => 
+    Waline.init(Object.assign({}, CONFIG.waline,{ el: document.querySelector(CONFIG.waline.el) }))
+  );
+});
+</script>
 
 
         <style>
